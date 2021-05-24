@@ -155,8 +155,8 @@ $(document).ready(function () {
   });
   var swiper = new Swiper(".mySwiper", {
     autoHeight: true,
-    slidesPerView: 2,
-    spaceBetween: 30,
+    slidesPerView: 1,
+    spaceBetween: 0,
     loop: true,
     observer: true,
     observeParents: true,
@@ -179,16 +179,16 @@ $(document).ready(function () {
         spaceBetween: 0
       },
       768: {
-        slidesPerView: 2,
-        spaceBetween: 30
+        slidesPerView: 1,
+        spaceBetween: 0
       },
       1200: {
-        slidesPerView: 2,
-        spaceBetween: 30
+        slidesPerView: 1,
+        spaceBetween: 0
       },
       1601: {
-        slidesPerView: 2,
-        spaceBetween: 30
+        slidesPerView: 1,
+        spaceBetween: 0
       }
     }
   });
